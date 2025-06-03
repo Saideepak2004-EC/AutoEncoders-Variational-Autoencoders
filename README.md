@@ -56,20 +56,80 @@ VAEs extend AEs by learning a **distribution** over the latent space instead of 
 
 ---
 
-## 📚 Summary
+## 📁 Projects
+
+### 📌 Project 1: Deep Autoencoder for Fashion MNIST (PyTorch)
+
+**Overview**:
+Developed a deep learning autoencoder using PyTorch to reconstruct images from the Fashion MNIST dataset. Demonstrates foundational understanding of unsupervised learning.
+
+**Key Contributions**:
+- Built a fully connected deep autoencoder with two-layer encoder and decoder.
+- Applied MSE loss function; optimized using Adam.
+- Trained for 10 epochs, final validation loss: **0.000207**.
+- Visualized input vs reconstructed images with `matplotlib` & `torchvision.utils`.
+- Efficient preprocessing & transformation of Fashion MNIST dataset.
+
+**Technical Stack**:
+- Frameworks: PyTorch, Torchvision
+- Techniques: Autoencoders, Image Reconstruction
+- Tools: tqdm, DataLoader, GPU acceleration
+
+**Outcome**:
+Achieved high-fidelity image reconstruction and deepened practical knowledge of latent space representations and training neural nets.
+
+---
+
+### 📌 Project 2: Variational Autoencoder (VAE) on MNIST
+
+**Overview**:
+Built a VAE from scratch using PyTorch to learn a compressed latent representation of MNIST digits. Focused on both image reconstruction and new sample generation.
+
+**Key Features**:
+- Custom architecture with 2D latent space (input: 784-dim).
+- Decoder: non-linear layers + Sigmoid output.
+- Reparameterization trick for stochastic sampling.
+
+**Loss Function**:
+- Binary Cross-Entropy (reconstruction) + KL Divergence (regularization).
+
+**Training**:
+- 50 epochs, Adam optimizer (lr = 0.001).
+- Smooth convergence and strong reconstructions.
+
+**Visualizations**:
+- Input image grid and reconstructed comparisons.
+- Digit generation from latent vectors.
+- Latent space manifold exploration.
+
+**Outcome**:
+- Realistic digit generation.
+- Strong unsupervised learning performance.
+- Gained experience in PyTorch and deep generative models.
+
+**Skills Highlighted**:
+- PyTorch · Latent Space Modeling · Autoencoder Design
+- Variational Inference · Visualization · Model Optimization
+
+---
+
+## 📚 Summary Table
+
 | Feature             | Autoencoder (AE)         | Variational Autoencoder (VAE)        |
 |---------------------|--------------------------|---------------------------------------|
 | Latent Space        | Fixed Vector             | Distribution (\( \mu, \sigma \))     |
 | Generative?         | ❌                       | ✅                                     |
-| Loss Function       | MSE                      | MSE + KL Divergence                   |
+| Loss Function       | MSE                      | BCE + KL Divergence                   |
 
 ---
 
 ## 📂 How to Use This Repo
 
-1. Clone any of the above repos.
-2. Run on MNIST or your dataset.
-3. Observe reconstructions & generated samples.
-4. Try modifying the encoder/decoder depth.
+1. Clone any of the above repos or use project folders.
+2. Train on Fashion MNIST or MNIST.
+3. Visualize reconstructions & latent vectors.
+4. Modify encoder/decoder for deeper learning.
 
-Happy Learning! 🎓
+---
+
+🎓 Happy Learning!
