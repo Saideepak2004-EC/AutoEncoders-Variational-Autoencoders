@@ -37,7 +37,7 @@ Autoencoders are unsupervised neural networks that learn to compress data into a
 
 ---
 
-## 🤯 What Are Variational Autoencoders (VAEs)?
+## 🤯 What Are Variational Autoencoders (VAEs)? 
 
 VAEs extend AEs by learning a **distribution** over the latent space instead of a fixed vector.
 
