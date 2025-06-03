@@ -50,14 +50,14 @@ VAEs extend AEs by learning a **distribution** over the latent space instead of 
 - Smooth latent space.
 
 ### VAE Architecture:
-![Variational Autoencoder](VAE.jpg)
+![Variational Autoencoder](VAE.jpg) 
 
 *Figure: VAE introduces stochastic sampling from a latent distribution.*
 
 ---
 
 ## 📁 Projects
-
+ 
 ### 📌 Project 1: Deep Autoencoder for Fashion MNIST (PyTorch)
 
 **Overview**:
