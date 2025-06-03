@@ -4,7 +4,7 @@ Welcome! This repository helps you consolidate your **theoretical understanding*
 
 ---
 
-## 🔧 GitHub Repositories to Practice
+## 🔧 GitHub Repositories to Practice 
 
 ### 1. [AntixK/PyTorch-VAE](https://github.com/AntixK/PyTorch-VAE)
 - Comprehensive VAE collection in PyTorch.
